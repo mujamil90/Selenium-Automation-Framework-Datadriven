@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+
+		<listener
+			class-name="com.automation.remarks.testng.VideoListener" />
+	</listeners>
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="com.ui.qa.genes.selectcountry.SelectCountryTest" />
+			<class name="com.ui.qa.genes.HomePage.HomePageTest" />
+			<class name="com.ui.qa.genes.HomePage.ClothingPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
